@@ -89,6 +89,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 100vh;
   padding: 0 20px;
 
@@ -186,4 +187,28 @@ img {
   margin-right: 30px;
 }
 
+/* Mobile */
 
+@media(max-width: 768px) {
+
+  /* nav */
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+  }
+
+  .navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
