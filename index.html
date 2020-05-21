@@ -6,7 +6,8 @@
   
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
-  <!-- Styles -->
+  <!-- Lighbox Styles -->
+  <link rel="stylesheet" href="./utils/LightBox/css/lightbox.min.css">
   <link rel="stylesheet" href="./css/utils.css">
   <link rel="stylesheet" href="./css/styles.css">
   <!--JavaScript -->
@@ -17,6 +18,8 @@
     crossorigin="anonymous"
     defer
   ></script>
+  <!-- Lightbox -->
+  <script src="./utils/LightBox/js/lightbox.min.js"defer></script>
   <script src="./utils/nav.js" defer></script>
   <script src="./utils/smoothScroll.js" defer></script>
   <title>Welcome To EdgeLedger</title>
@@ -113,20 +116,36 @@
       </header>
       <div class="row">
         <div class="column">
-          <img src="./imgs/cases/cases1.jpg" alt="">
-          <img src="./imgs/cases/cases2.jpg" alt="">
+          <a href="./imgs/cases/cases1.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases1.jpg" alt="">
+          </a>
+          <a href="./imgs/cases/cases2.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases2.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="./imgs/cases/cases3.jpg" alt="">
-          <img src="./imgs/cases/cases4.jpg" alt="">
+          <a href="./imgs/cases/cases3.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases3.jpg" alt="">
+          </a>
+          <a href="./imgs/cases/cases4.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases4.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="./imgs/cases/cases5.jpg" alt="">
-          <img src="./imgs/cases/cases6.jpg" alt="">
+          <a href="./imgs/cases/cases5.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases5.jpg" alt="">
+          </a>
+          <a href="./imgs/cases/cases6.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases6.jpg" alt="">
+          </a>
         </div>
         <div class="column">
-          <img src="./imgs/cases/cases7.jpg" alt="">
-          <img src="./imgs/cases/cases8.jpg" alt="">
+          <a href="./imgs/cases/cases7.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases7.jpg" alt="">
+          </a>
+          <a href="./imgs/cases/cases8.jpg" data-lightbox="cases" data-title="Here is some text">
+            <img src="./imgs/cases/cases8.jpg" alt="">
+          </a>
         </div>
       </div>
     </section>
